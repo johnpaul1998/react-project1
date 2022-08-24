@@ -47,7 +47,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item border-right">
-                <Link to="/contact" className="nav-link active text-white">
+                <Link to="/contactUs" className="nav-link active text-white">
                   Contact Us
                 </Link>
               </li>

@@ -29,14 +29,11 @@ export default function Home() {
             It all started with a simple dream and belief that Artwear can also
             be a way of sharing stories
           </p>
-          <a
-            className="btn btn-outline-light btn-lg rounded-0 mt-5 py-3"
-            href="#modalLoginForm"
-            data-bs-toggle="modal"
-            data-bs-target="#modalLoginForm"
+          <button
+            className="btn btn-dark btn-lg rounded-0 mt-5 py-3"
           >
             ORDER NOW
-          </a>
+          </button>
         </div>
       </div>
       {/* stories */}
@@ -186,9 +183,9 @@ export default function Home() {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores aut vero deleniti distinctio officiis, maiores, inventore consequatur sapiente magni repellat. Blanditiis consequatur eligendi temporibus corporis inventore saepe eius ullam!
                 </p>
-                <a href="#" className="btn btn-primary">
+                <button className="btn btn-dark rounded-0">
                   Buy
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -203,9 +200,9 @@ export default function Home() {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores aut vero deleniti distinctio officiis, maiores, inventore consequatur sapiente magni repellat. Blanditiis consequatur eligendi temporibus corporis inventore saepe eius ullam!
                 </p>
-                <a href="#" className="btn btn-primary">
+                <button className="btn btn-dark rounded-0">
                   Buy
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -220,9 +217,9 @@ export default function Home() {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores aut vero deleniti distinctio officiis, maiores, inventore consequatur sapiente magni repellat. Blanditiis consequatur eligendi temporibus corporis inventore saepe eius ullam!
                 </p>
-                <a href="#" className="btn btn-primary">
+                <button className="btn btn-dark rounded-0">
                   Buy
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -237,20 +234,20 @@ export default function Home() {
                 <p className="card-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores aut vero deleniti distinctio officiis, maiores, inventore consequatur sapiente magni repellat. Blanditiis consequatur eligendi temporibus corporis inventore saepe eius ullam!
                 </p>
-                <a href="#" className="btn btn-primary">
+                <button className="btn btn-dark rounded-0">
                   Buy
-                </a>
+                </button>
               </div>
             </div>
           </div>
         </div>
         <div className="d-flex justify-content-center alighn-items-center py-3">
-          <a
+          <button
             href="main-items.html"
             className="btn btn-dark btn-lg text-center rounded-0"
           >
             Show More
-          </a>
+          </button>
         </div>
       </div>
       <footer className="container-fluid bg-dark py-5">
